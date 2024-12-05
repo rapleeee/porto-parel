@@ -4,7 +4,7 @@ import { MdOutlineDashboard, MdOutlineEmail } from "react-icons/md";
 import { LuFiles } from "react-icons/lu";
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState<any | null>(null);
 
   const Links = [
     {
