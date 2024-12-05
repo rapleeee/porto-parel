@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { VelocityScroll } from "./ui/scroll-velocity";
 import farrel from "../assets/farrelTransparent.png";
 import Image from "next/image";
-import { WordFadeIn } from "./ui/word-fade-in";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { TypingAnimation } from "./ui/text-typing";
 import Aos from "aos";

@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import { BackgroundGradient } from "./ui/background-gradient";
-import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 import sertikom1 from '../assets/sertikom-1.jpeg';
 import sertikom2 from '../assets/sertikom-2.jpeg';
@@ -22,7 +20,7 @@ function Certificate() {
     <div className="bg-black-100">
       <div className="max-w-screen-lg mx-auto lg:py-20 p-20 lg:p-0">
         <h1 className="text-white text-3xl font-semibold mb-10">
-          Certificate that i've achieved
+          Certificate that i&apos;ve achieved
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           {certificates.map((certificate) => (

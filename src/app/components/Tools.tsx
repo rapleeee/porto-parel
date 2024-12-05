@@ -1,4 +1,4 @@
-import { Image } from "lucide-react";
+
 import React from "react";
 import { Marquee } from "./ui/marquee";
 import { cn } from "@/lib/utils";
@@ -7,7 +7,7 @@ const tools = [
   {
     name: "HTML",
     icon: "https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png",
-    competency: "Advanced",
+    competency: "Advanced",   
   },
   {
     name: "CSS",
